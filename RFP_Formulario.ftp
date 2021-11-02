@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Formulario Completo.ftp </title>
+</head>
+<body>
+<form method="POST"action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">
+<table border=1>
+        <tr>
+           
+            <th colspan=2>User Form</th>
+           
+           </tr>
+        <tr>
+
+    <td>
+      <label for="nombre">Enter name</label>
+     </td>
+    <td>
+     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+    </td>
+  </tr>
+      <tr>
+          <td> 
+             <label for="password">Enter password </label>
+    </td>
+        <td>
+     <input type="text" id="password" name="password" placeholder="Escribe tu contraseña">
+       </td>
+    </tr>
+         <tr>
+
+           <td>
+              <label for=password">Enter adress</label>
+      </td>
+           <td>
+               <input type="text area" id="direccion" name="direccion" placeholder="Escribe tu direccion">
+          </td>
+      </tr>
+     <tr>
+
+   <td>
+       Select game
+   </td>
+        <td>
+           <input type="checkbox" id="game" name="deportes[]" value="Hockey">
+           <label for="game"> Hockey</label><br>
+         <input type="checkbox" id="game" name="deportes[]" value="Football">
+           <label for="game"> Football</label><br>
+         <input type="checkbox" id="game" name="deportes[]" value="Badminton">
+           <label for="game"> Badminton</label><br>
+         <input type="checkbox" id="game" name="deportes[]" value="Cricket">
+           <label for="game"> Cricket</label><br>
+         <input type="checkbox" id="game" name="deportes[]" value="Volleyball">
+           <label for="game"> Volleyball</label><br>
+       </td>
+   </tr>
+       <tr>
+       
+      <td>
+          Gender
+     </td>
+     <td>
+        <input type="radio" id=Gender_Male name="sexo" value="Male">
+          <label for="Gender_Male"> Male</label>
+        <input type="radio" id=Gender_Female name="sexo" value="female">
+         <label for="Gender_Male"> Female</label>
+              
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
